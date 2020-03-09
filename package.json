@@ -1,0 +1,11 @@
+{
+  "name": "webpush",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "moon-hai <moon.hai@1pac.vn>",
+  "license": "MIT",
+  "dependencies": {
+    "http-server": "^0.12.1",
+    "web-push": "^3.4.3"
+  }
+}
