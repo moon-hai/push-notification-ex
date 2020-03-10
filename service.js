@@ -25,6 +25,11 @@ const saveSubscription = async subscription => {
   return response.json()
 }
 
+// install
+self.addEventListener('install', async event => {
+  console.log('Installed sw.js', event);
+})
+
 // activate
 self.addEventListener('activate', async () => {
   try {
